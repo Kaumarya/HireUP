@@ -1,13 +1,9 @@
 // ─── API Configuration ───────────────────────────────────────────────────────
-import dotenv from 'dotenv';
-
-// Load environment variables
-dotenv.config();
 
 // ⚠️  IMPORTANT: Using Groq API
 const API_CONFIG = {
   // 🔒 GROQ API KEY - Now loaded from environment variables
-  GROQ_API_KEY: process.env.GROQ_API_KEY,
+  GROQ_API_KEY: import.meta.env.VITE_GROQ_API_KEY,
   
   // API Configuration - Using Groq
   GROQ_BASE_URL: 'https://api.groq.com/openai/v1',
