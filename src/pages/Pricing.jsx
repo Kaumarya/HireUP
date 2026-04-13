@@ -127,7 +127,7 @@ export default function Pricing() {
     <div className="min-h-screen bg-bg-primary">
       <Navbar />
       
-      <main className="pt-24 pb-16">
+      <main className="pt-24 pb-4">
         <div className="max-w-7xl mx-auto px-6">
           {/* Header */}
           <motion.div
@@ -174,7 +174,7 @@ export default function Pricing() {
 
       
       {/* Pricing Cards */}
-      <section className="py-16">
+      <section className="py-8 pt-0">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
             {plans.map((plan, i) => {

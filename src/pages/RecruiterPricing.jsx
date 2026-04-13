@@ -30,7 +30,7 @@ export default function RecruiterPricing() {
         'API access'
       ],
       popular: false,
-      buttonText: 'Get Started'
+      buttonText: 'Choose Plan'
     },
     {
       name: 'Professional',

@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Link, useSearchParams, useNavigate } from 'react-router-dom';
 import { ArrowLeft, CheckCircle, Crown, Zap, Star, Shield } from 'lucide-react';
-import LandingNavbar from '../components/layout/LandingNavbar';
+import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
 
 export default function UpgradePayment() {
@@ -143,7 +143,7 @@ export default function UpgradePayment() {
 
   return (
     <div className="min-h-screen bg-bg-primary text-text-primary font-body">
-      <LandingNavbar />
+      <Navbar />
 
       {/* Hero Section */}
       <section className="relative pt-32 pb-16 px-6">
